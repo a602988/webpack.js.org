@@ -43,27 +43,27 @@ npm install --save-dev webpack-cli
 }
 ```
 
-T> To run the local installation of webpack you can access its bin version as `node_modules/.bin/webpack`.
+T> 要運行webpack的本地安裝，您可以將其版本作為 `node_modules/.bin/webpack`.
 
 
-## Global Installation
+## 全局安裝
 
-The following NPM installation will make `webpack` available globally:
+以下NPM安裝將進行 `webpack` 全局可用:
 
 ``` bash
 npm install --global webpack
 ```
 
-W> Note that this is __not a recommended practice__. Installing globally locks you down to a specific version of webpack and could fail in projects that use a different version.
+W> 請注意，這是 __not a recommended practice__. 全局安裝會將您鎖定到特定版本的webpack，並且在使用不同版本的項目中可能會失敗。
 
 
 ## Bleeding Edge
 
-If you are enthusiastic about using the latest that webpack has to offer, you can install beta versions or even directly from the webpack repository using the following commands:
+如果您熱衷於使用webpack提供的最新版本，則可以使用以下命令安裝beta版本，甚至可以直接從webpack存儲庫安裝：
 
 ``` bash
 npm install webpack@beta
 npm install webpack/webpack#<tagname/branchname>
 ```
 
-W> Take caution when installing these bleeding edge releases! They may still contain bugs and therefore should not be used in production.
+W> 安裝這些前沿釋放時要小心！ 它們可能仍然包含錯誤，因此不應用於生產。

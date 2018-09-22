@@ -8,21 +8,21 @@ contributors:
   - EugeneHlushko
 ---
 
-This guide goes through the various methods used to install webpack.
+本指南介紹了用於安裝webpack的各種方法。
 
 
-## Pre-requisites
+## 先決條件
 
-Before we begin, make sure you have a fresh version of [Node.js](https://nodejs.org/en/) installed. The current Long Term Support (LTS) release is an ideal starting point. You may run into a variety of issues with the older versions as they may be missing functionality webpack and/or its related packages require.
+開始之前， 確定您的最新版本 [Node.js](https://nodejs.org/en/) 已安裝. 目前長期支持 (LTS) 版本是完美的版本. 您可能會遇到舊版本的各種問題，因為它們可能缺少webpack和/或其相關軟件包所需的功能。
 
 
-## Local Installation
+## 本地安裝
 
-The latest webpack release is:
+最新的 webpack 發布:
 
 [![GitHub release](https://img.shields.io/npm/v/webpack.svg?label=webpack&style=flat-square&maxAge=3600)](https://github.com/webpack/webpack/releases)
 
-To install the latest release or a specific version, run one of the following commands:
+安裝最新版本或特定版本, 運行以下命令之一:
 
 ``` bash
 npm install --save-dev webpack
